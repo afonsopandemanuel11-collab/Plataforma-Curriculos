@@ -1,0 +1,12 @@
+{
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "functions": {
+    "src/app/api/ai/generate/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}
